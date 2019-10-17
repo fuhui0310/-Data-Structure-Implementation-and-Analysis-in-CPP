@@ -14,12 +14,15 @@ HASH SUM, which specifies a hash table implementation using a hash function that
 HASH PRODUCT, which specifies a hash table implementation using a hash function that includes multiplication by prime numbers in its calculation.
 AVL, which specifies an AVL tree.
 SKIPLIST, which specifies a skip list.
+
 2.The second line specifies the path to a file that contains the word set (i.e., the set of correctly-specified words). The word set file will be assumed to have one correctly-spelled word on each line.
 You'll find a file called wordset.txt in your project directory, which is a large set of English words obtained from an open source wordlist project called wordlist.sourceforge.net (Links to an external site.).
 You might also want to create one or more smaller word sets to test with, since the provided word set has over 60,000 words.
+
 3.The third line specifies the path to a file that contains the input text for which you want to check spelling. The file will be tokenized (i.e., broken into words, with punctuation and spaces ignored) and the words will be checked by your WordChecker class.
 You'll find a file called biginput.txt in your project directory, which is one very large test case that contains a combination of words that are spelled correctly and incorrectly. This, too, was obtained from the open source wordlist project at wordlist.sourceforge.net (Links to an external site.).
 You'll almost certainly want to create one or more smaller test inputs, so you can determine whether your implementations of the various Set<ElementType> class templates and your WordChecker class are correct.
+
 4.The fourth line specifies the format of the output you'd like to see, which allows you to choose between seeing a display of the misspellings and suggestions, or whether you're just interested in seeing how much time the spell-checking process takes. This line needs to say either:
 DISPLAY, if you want a display of misspellings and suggestions.
 TIME, if you want to see only timing results.
